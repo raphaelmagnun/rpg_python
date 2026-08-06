@@ -1,0 +1,8 @@
+app/	                Guarda todo o código-fonte da aplicação. Nada de código de regra fica solto na raiz.
+app/models/         	Classes que representam o mundo do jogo (personagem.py, item.py, combate.py).
+app/controllers/	    Controla o fluxo do jogo (jogo_controller.py aciona o loop de turnos e combate).
+app/views/	            Interface visual (cli_view.py faz os print e input no terminal).
+app/views/static/	    Onde ficarão arquivos estáticos do navegador no futuro (.css, .js, imagens).
+app/views/templates/   	Onde ficarão as telas em .html no futuro.
+tests/	                Arquivos para testar se as funções do jogo funcionam sem ter que jogar tudo manualmente.
+main.py	                O "botão de ligar". Arquivo mínimo executado para iniciar a aplicação.
