@@ -18,35 +18,3 @@ class Character:
         #Usa-se aspas no Character pois a classe Caracter ainda não foi criada até essa linha
     def attack (self, target: "Character") -> int:
         return target.take_damage(self.attack_power)
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class Personagem:
-    def __init__(self, nome: str, vida: int, ataque: int):
-        self.nome = nome
-        self.vida = vida
-        self.ataque = ataque
-
-    def atacar(self, alvo: "Personagem") -> int:
-        alvo.vida -= self.ataque
-        return self.ataque
